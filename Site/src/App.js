@@ -11,17 +11,22 @@ export default function App() {
 
   /**
    * Cria uma variável para guardar o endereço do contrato após o deploy!
-   */
+   * inserir o endereço do contrato na constante contractAddress
+  */
   const contractAddress = "0x4518ce02Fc896C6F1D5FEC30600f4C2C164B91F3";
 
    /**
    * Cria uma variável para referenciar o conteúdo ABI!
+   * apos o deploy copiar todo o conteudo do arquivo WavePortal.json que fica dentro da pasta artifacts\contracts
+   * e colar no arquivo Waveportal.json que fica na pasta src\utils
+   * esta ação é necessária para a interação do front com o contrato na rede Goerli teste
    */
+   
   const contractABI = abi.abi;
 
    
 
-       /*
+   /*
    * Método para consultar todos as mensagens  do contrato
    */
   const getAllWaves = async () => {
