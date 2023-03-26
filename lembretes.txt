@@ -18,5 +18,5 @@
 
 # create-react-app (nome do projeto)
 
-(0x4307389E0F4B7078091c605aD3D1BFfA2ca4CaB9)  endereço do contrato
+
 
